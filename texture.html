@@ -125,7 +125,7 @@ function initialize()
 		// minUnvisibleDelay: 1,
 	});
 	
-	let geometry1 = new THREE.PlaneBufferGeometry(1,1, 4,4);
+	let geometry1 = new THREE.PlaneBufferGeometry(2,2, 4,4);
 	let loader = new THREE.TextureLoader();
 	let texture = loader.load( 'images/new.jpg', render );
 	let material1 = new THREE.MeshBasicMaterial( { map: texture } );
